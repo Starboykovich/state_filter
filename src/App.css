@@ -1,0 +1,45 @@
+.App {
+  margin: 0 160px; /* Отступы слева и справа на 40px */
+}
+.project-list {
+  column-count: 3; /* Разделить элементы на 3 столбца */
+  column-gap: 10px; /* Отступ между элементами в столбцах */
+}
+
+.project-item {
+  break-inside: avoid; /* Предотвратить разрыв элемента между столбцами */
+  margin-bottom: 10px; /* Отступ между элементами */
+}
+.project-list {
+  column-count: 3; /* Разделить элементы на 3 столбца */
+  column-gap: 10px; /* Отступ между элементами в столбцах */
+}
+
+.project-item {
+  display: inline-block;
+  width: 100%; /* Задаем ширину 100% для элементов */
+  margin-bottom: 10px; /* Отступ между элементами */
+}
+
+.project-item img {
+  width: 100%; /* Задаем ширину 100% для изображений внутри элементов */
+}
+
+.toolbar {
+  display: flex;
+  margin: 20px 0px 40px;
+}
+
+.toolbar-button {
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.toolbar-button.selected {
+  background-color: black;
+  color: white;
+}
